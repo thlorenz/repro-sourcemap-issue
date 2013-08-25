@@ -12,7 +12,8 @@
     "browserify": "~2.29.0"
   },
   "scripts": {
-    "test": "browserify -t es6ify --debug foo.js"
+    "test": "browserify -t es6ify --debug foo.js",
+    "test-no-sourcemap":"browserify -t es6ify foo.js"
   },
   "author": "Thorsten Lorenz <thlorenz@gmx.de> (http://thlorenz.com/)",
   "license": "BSD"
